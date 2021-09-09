@@ -1,6 +1,6 @@
 name: Feature Request
 description: Suggest an idea for a Team Hydra service or project.
-title: "[Feature Request] Title Goes Here"
+title: "[Feature Request] Suggestion Description"
 labels: [Feature Request, User Suggestion]
 assignees:
   - JakeyPrime
@@ -8,15 +8,15 @@ body:
   - type: checkboxes
     id: check
     attributes:
-      label: "Did you search other suggestions?"
-      description: "Please search other suggestions FIRST, before continuing."
+      label: "Did You Search Other Suggestions?"
+      description: "Please ensure this request hasn't been posted before!"
       options:
-      - label: "I have searched other suggestions"
+      - label: "I have checked if this feature request exists already"
         required: true
   - type: textarea
     id: feature-description
     attributes:
-      label: "Is your feature request related to a problem?"
+      label: "Is Your Feature Request Rrelated To A Problem?"
       description: "Please write a clear and concise description of what the problem is."
       placeholder: "I'm always frustrated when... (please use bug reports where appropriate)"
     validations:
@@ -24,19 +24,19 @@ body:
   - type: textarea
     id: solution
     attributes:
-      label: "Describe the solution, feature, or addon you'd like."
-      description: "Please write a detailed description about how the feature will work, and be implemented."
+      label: "Screenshots And/Or Description Of The Feature Request"
+      description: "Please write a detailed description about how the feature will work, and be implemented, optionally providing screenshots."
     validations:
       required: true
   - type: textarea
     id: why
     attributes:
-      label: "Why does the service need this?"
-      description: "Please explain why this would enhance EVERYONE'S experience with using this service."
+      label: "Why Does The Service Need This?"
+      description: "A detailed description of why this could benefit either the management team, the users, or both."
     validations:
       required: true
   - type: textarea
     id: other
     attributes:
-      label: Additional Context
+      label: "Additional Context"
       description: "Add any other context about the problem here, or leave blank."
