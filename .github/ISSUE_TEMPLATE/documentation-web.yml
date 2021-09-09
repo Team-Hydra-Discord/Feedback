@@ -1,0 +1,39 @@
+name: Documentation / Web Fix
+description: "If there's an issue with our documentation, website or anything related, you can make a request here to have it fixed."
+title: "[Documentation] Text Description"
+labels: [Bug, Documentation]
+assignees:
+  - JakeyPrime
+body:
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: "Describe The Issue With This Content"
+      description: "What is the issue you're facing with this content, and why should it be fixed?"
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: "Where Does This Issue Reside?"
+      description: "Please give very specific instructions on where to find this issue so we can get it fixed as soon as possible, even screenshots if you're brave."
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: expected-content
+    attributes:
+      label: "Expected Content"
+      description: "Please write a clear and concise description of what this content should be or read."
+    validations:
+      required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: "Additional Context"
+      description: "Add any other context about the problem here, or leave blank."

@@ -1,0 +1,42 @@
+name: Feature Request
+description: Suggest an idea for a Team Hydra service or project.
+title: "[Feature Request] Suggestion Description"
+labels: [Feature Request, User Suggestion]
+assignees:
+  - JakeyPrime
+body:
+  - type: checkboxes
+    id: check
+    attributes:
+      label: "Did You Search Other Suggestions?"
+      description: "Please ensure this request hasn't been posted before!"
+      options:
+      - label: "I have checked if this feature request exists already"
+        required: true
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Is Your Feature Request Rrelated To A Problem?"
+      description: "Please write a clear and concise description of what the problem is."
+      placeholder: "I'm always frustrated when... (please use bug reports where appropriate)"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Screenshots And/Or Description Of The Feature Request"
+      description: "Please write a detailed description about how the feature will work, and be implemented, optionally providing screenshots."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "Why Does The Service Need This?"
+      description: "A detailed description of why this could benefit either the management team, the users, or both."
+    validations:
+      required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: "Additional Context"
+      description: "Add any other context about the problem here, or leave blank."
