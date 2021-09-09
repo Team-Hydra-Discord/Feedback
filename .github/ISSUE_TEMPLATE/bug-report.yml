@@ -8,14 +8,14 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: Describe the bug
+      label: Describe The Bug
       description: Please write a clear and concise description of what the bug is.
     validations:
       required: true
   - type: textarea
     id: repro
     attributes:
-      label: Reproduction steps
+      label: Reproduction Steps
       description: "How do you trigger this bug? Please walk us through it step by step."
       value: |
         1.
@@ -28,15 +28,16 @@ body:
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Describe the bug
+      label: Expected Behavior
       description: Please write a clear and concise description of what you expected to happen when doing or performing this action.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain and / or show your problem.
+      render: bash
   - type: textarea
     id: other
     attributes:
