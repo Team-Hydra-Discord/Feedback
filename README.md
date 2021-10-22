@@ -2,7 +2,10 @@
 Welcome to the Feedback repo for **Team Hydra**!
 Here, you can submit bug reports and feature requests for all of our bots and services.
 
-To get started, click on [this link](https://github.com/Team-Hydra-Discord/Feedback/issues/new/choose)!
+To get started, choose from the following issue types:  
+* [Bug Report](https://github.com/Team-Hydra-Discord/Feedback/issues/new?assignees=JakeyPrime&labels=Bug&template=bug-report.yml&title=%5BBug+Report%5D+Issue+Description)  
+* [Documentation / Web Fix](https://github.com/Team-Hydra-Discord/Feedback/issues/new?assignees=JakeyPrime&labels=Bug%2CDocumentation&template=documentation-web.yml&title=%5BDocumentation%5D+Text+Description)  
+* [Feature Request](https://github.com/Team-Hydra-Discord/Feedback/issues/new?assignees=JakeyPrime&labels=Feature+Request%2CUser+Suggestion&template=feature-request.yml&title=%5BFeature+Request%5D+Suggestion+Description)
 
 ## General Feedback Rules
 1. Don't create joke or troll submissions. This will get you blocked from the repo.
